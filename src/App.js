@@ -14,12 +14,11 @@ function App() {
 
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Routes>
           <Route path="/" element={isLoggedIn ? <Navigate to="/home" replace /> : <Login />} />
           <Route path="/login" element={<Login />} />
           <Route path="/home" element={<Home />} />
-          <Route path="/job-portal" element={<Home />} />
           <Route path="/jobs" element={<Jobs />} />
           <Route path="/post-job" element={<PostJob />} />
           <Route path="/apply-jobs" element={<ApplyJobs />} />
