@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Job-Portal/static/css/main.9cd9ab38.css",
-    "main.js": "/Job-Portal/static/js/main.5000c20a.js",
+    "main.css": "/Job-Portal/static/css/main.22cf2ce2.css",
+    "main.js": "/Job-Portal/static/js/main.5c30b1c8.js",
     "static/media/cool-background.png": "/Job-Portal/static/media/cool-background.8c252db8e4acab4196d4.png",
     "static/media/tesla.png": "/Job-Portal/static/media/tesla.07f612597196a0c119d9.png",
     "static/media/sap.jpeg": "/Job-Portal/static/media/sap.b2bc7f8625809466165a.jpeg",
@@ -15,11 +15,11 @@
     "static/media/ibm.jpeg": "/Job-Portal/static/media/ibm.b700f9aef98d6a67d5ad.jpeg",
     "static/media/cognizant.webp": "/Job-Portal/static/media/cognizant.322b3a8a75fff5cbbc7d.webp",
     "index.html": "/Job-Portal/index.html",
-    "main.9cd9ab38.css.map": "/Job-Portal/static/css/main.9cd9ab38.css.map",
-    "main.5000c20a.js.map": "/Job-Portal/static/js/main.5000c20a.js.map"
+    "main.22cf2ce2.css.map": "/Job-Portal/static/css/main.22cf2ce2.css.map",
+    "main.5c30b1c8.js.map": "/Job-Portal/static/js/main.5c30b1c8.js.map"
   },
   "entrypoints": [
-    "static/css/main.9cd9ab38.css",
-    "static/js/main.5000c20a.js"
+    "static/css/main.22cf2ce2.css",
+    "static/js/main.5c30b1c8.js"
   ]
 }
