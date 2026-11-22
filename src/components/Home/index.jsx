@@ -1,7 +1,6 @@
  import React from "react";
 import Navbar from "../Navbar";
 import { Link } from "react-router-dom";
-import { FaSearch, FaMapMarkerAlt } from "react-icons/fa";
 import "./index.css";
 
 const Home = () => {

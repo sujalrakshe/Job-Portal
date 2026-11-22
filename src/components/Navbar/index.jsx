@@ -1,8 +1,17 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import "./index.css";
 
 const Navbar = () => {
+  const navigate = useNavigate();
+  const isLoggedIn = localStorage.getItem("userLoggedIn") === "true";
+
+  const handleLogout = () => {
+    localStorage.removeItem("userLoggedIn");
+    localStorage.removeItem("userEmail");
+    navigate("/login");
+  };
+
   return (
     <>
       <div className="main-page">
@@ -24,6 +33,21 @@ const Navbar = () => {
             <li>
               <Link to="/saved-job">Saved Job</Link>
             </li>
+            {isLoggedIn ? (
+              <li>
+                <button
+                  type="button"
+                  onClick={handleLogout}
+                  className="nav-logout-btn"
+                >
+                  Logout
+                </button>
+              </li>
+            ) : (
+              <li>
+                <Link to="/login">Login</Link>
+              </li>
+            )}
           </ul>
         </nav>
       </div>

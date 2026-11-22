@@ -52,6 +52,7 @@ const CommentCard = ({ value, deleteComment }) => {
               {imageUrl && (
                 <img
                   src={imageUrl}
+                  alt="Comment attachment"
                   data-testid="image-preview"
                   className={`${imageUrl ? "image-text-editor" : ""}`}
                   style={{ width: "150px" }}
@@ -75,7 +76,8 @@ const CommentCard = ({ value, deleteComment }) => {
                   </div>
                 </button>
                 <button
-                  role="delete"
+                  type="button"
+                  aria-label="Delete comment"
                   className="delete"
                   onClick={deleteComment}
                 >
